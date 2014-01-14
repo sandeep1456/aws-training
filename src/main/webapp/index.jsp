@@ -17,11 +17,19 @@
 
 <style>
 body{font-family: Arial;}
-table{width: 600px;}
+table{width: 600px; margin-bottom:25px;}
+
 table th{font-weight: bold;
 border-bottom: 1px solid #999;
 background: #EEE;
-padding: 5px 2px 2px 5px;}
+padding: 5px 2px;}
+
+a{color: white;
+background: brown;
+padding: 5px 10px;
+border-radius: 8px;
+text-decoration: none;
+text-shadow: 1px 1px #666;}
 </style>
 </head>
 <body>
