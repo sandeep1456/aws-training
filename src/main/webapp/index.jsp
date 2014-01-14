@@ -14,14 +14,23 @@
   ga('send', 'pageview');
 
 </script>
+
+<style>
+body{font-family: Arial;}
+table{width: 600px;}
+table th{font-weight: bold;
+border-bottom: 1px solid #999;
+background: #EEE;
+padding: 5px 2px 2px 5px;}
+</style>
 </head>
 <body>
  <h2>Users List</h2>
  <table>
   <tr>
-   <td>ID</td>
-   <td>Name</td>
-   <td>Email</td>
+   <th>ID</th>
+   <th>Name</th>
+   <th>Email</th>
   </tr>
   <%
       UserService us = new UserService();
